@@ -10,7 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_07_151326) do
+ActiveRecord::Schema[7.0].define(version: 2022_09_07_151656) do
+  create_table "orders", force: :cascade do |t|
+    t.integer "product_id"
+    t.integer "user_id"
+    t.integer "status", default: 0
+    t.string "token"
+    t.string "charge_id"
+    t.string "error_message"
+    t.string "customer_id"
+    t.integer "payment_gateway"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "price_cents", default: 0, null: false
+  end
+
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.string "stripe_plan_name"
