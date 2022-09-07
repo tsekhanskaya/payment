@@ -12,7 +12,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 20_220_907_151_656) do
+ActiveRecord::Schema[7.0].define(version: 20_220_907_152_835) do
+  create_table 'homes', force: :cascade do |t|
+    t.datetime 'created_at', null: false
+    t.datetime 'updated_at', null: false
+  end
+
   create_table 'orders', force: :cascade do |t|
     t.integer 'product_id'
     t.integer 'user_id'
