@@ -14,8 +14,8 @@ module ExampleWithPaypal
     config.load_defaults 7.0
 
     config_file = Rails.application.config_for(:application)
-    config_file.each do |key,value|
+    config_file&.each do |key, value|
       ENV[key] = value
-    end unless config_file.nil?
+    end
   end
 end
