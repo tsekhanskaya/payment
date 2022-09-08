@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2462687-a619-4a0a-bdbf-f8e039f38172" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/orders_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/orders/index.html.haml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/stripe.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/example_with_paypal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/example_with_paypal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/orders/index.html.haml" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/orders/index.html.haml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,21 +23,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/hanna/example_with_paypal",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hanna/example_with_paypal&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Rails.Development: example_with_paypal">
     <configuration name="Development: example_with_paypal" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="example_with_paypal" />
@@ -146,6 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662562798241</updated>
       <workItem from="1662562801256" duration="2887000" />
+      <workItem from="1662626467204" duration="4677000" />
     </task>
     <servers />
   </component>
